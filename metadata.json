@@ -1,0 +1,6 @@
+{
+  "name": "SIMANTAR - Monitoring Antar Jemput Siswa",
+  "description": "Sistem Informasi Monitoring Antar Jemput Siswa SMP Muhammadiyah 1 Wanareja berbasis Mobile Application dan WhatsApp Gateway",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

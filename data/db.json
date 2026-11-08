@@ -1,0 +1,551 @@
+{
+  "settings": {
+    "schoolName": "SMP Muhammadiyah 1 Wanareja",
+    "schoolSubtext": "Kecamatan Wanareja, Kabupaten Cilacap, Jawa Tengah",
+    "schoolAddress": "Jl. Nasional III No. 45, Wanareja, Cilacap 53265",
+    "fonnteApiToken": "",
+    "senderPhone": "0812-9876-5432",
+    "isSimulationMode": true,
+    "morningStart": "06:30",
+    "morningEnd": "08:00",
+    "templates": {
+      "departed": "SMP Muhammadiyah 1 Wanareja: Halo Bunda/Ayah [NAMA_ORTU], angkot sekolah ([NAMA_SUPIR] - [PLAT]) sudah berangkat menuju rumah ananda [NAMA_SISWA].",
+      "at_pickup": "SMP Muhammadiyah 1 Wanareja: Ananda [NAMA_SISWA] sudah sampai di titik penjemputan ([LOKASI]). Mohon bersiap.",
+      "boarded": "SMP Muhammadiyah 1 Wanareja: Ananda [NAMA_SISWA] sudah naik angkot sekolah ([PLAT]) dengan selamat.",
+      "arrived": "SMP Muhammadiyah 1 Wanareja: Ananda [NAMA_SISWA] sudah sampai sekolah dengan selamat pada pukul [WAKTU]. 🙏"
+    }
+  },
+  "students": [
+    {
+      "id": "std-1",
+      "nis": "202407001",
+      "name": "Andi Pratama",
+      "class": "VII A",
+      "gender": "L",
+      "parentName": "Hj. Rohmah / Bpk. Sutrisno",
+      "parentPhone": "0812-3456-7890",
+      "address": "Jl. Melati No. 12, RT 02/RW 04, Wanareja",
+      "pickupPoint": "Jl. Melati (Dekat Pos Ronda 2)",
+      "driverId": "drv-1",
+      "vehicleId": "veh-1",
+      "routeId": "rt-1",
+      "status": "arrived",
+      "pickupTime": "06.50 WIB",
+      "arrivalTime": "07.15 WIB",
+      "isDelayed": true,
+      "delayMinutes": 10,
+      "avatarUrl": "https://images.unsplash.com/photo-1544717305-2782549b5136?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "std-2",
+      "nis": "202407002",
+      "name": "Siti Aisyah",
+      "class": "VII A",
+      "gender": "P",
+      "parentName": "Ibu Maryam",
+      "parentPhone": "0813-8899-1234",
+      "address": "Desa Adimulya RT 01/RW 03, Wanareja",
+      "pickupPoint": "Perempatan Masjid Al-Hidayah Adimulya",
+      "driverId": "drv-1",
+      "vehicleId": "veh-1",
+      "routeId": "rt-1",
+      "status": "arrived",
+      "pickupTime": "06.55 WIB",
+      "arrivalTime": "07.15 WIB",
+      "isDelayed": false,
+      "delayMinutes": 0
+    },
+    {
+      "id": "std-3",
+      "nis": "202407003",
+      "name": "Rizky Maulana",
+      "class": "VII B",
+      "gender": "L",
+      "parentName": "Bpk. Hendra Gunawan",
+      "parentPhone": "0857-1234-5678",
+      "address": "Jl. Pramuka No. 45, Wanareja",
+      "pickupPoint": "Depan Balai Desa Wanareja",
+      "driverId": "drv-1",
+      "vehicleId": "veh-1",
+      "routeId": "rt-1",
+      "status": "arrived",
+      "pickupTime": "07.02 WIB",
+      "arrivalTime": "07.15 WIB",
+      "isDelayed": false,
+      "delayMinutes": 0
+    },
+    {
+      "id": "std-4",
+      "nis": "202408012",
+      "name": "Dewi Anggraini",
+      "class": "VIII A",
+      "gender": "P",
+      "parentName": "Ibu Ratna Sari",
+      "parentPhone": "0878-5566-7788",
+      "address": "Dusun Cihaur RT 03/RW 02, Madusari",
+      "pickupPoint": "Gapura Dusun Cihaur",
+      "driverId": "drv-1",
+      "vehicleId": "veh-1",
+      "routeId": "rt-1",
+      "status": "arrived",
+      "pickupTime": "07.05 WIB",
+      "arrivalTime": "07.15 WIB",
+      "isDelayed": false,
+      "delayMinutes": 0
+    },
+    {
+      "id": "std-5",
+      "nis": "202408025",
+      "name": "Fajar Nugroho",
+      "class": "VIII B",
+      "gender": "L",
+      "parentName": "Bpk. Joko Purnomo",
+      "parentPhone": "0812-7788-9900",
+      "address": "Jl. Merdeka No. 8, Tarisi, Wanareja",
+      "pickupPoint": "Pertigaan Pasar Tarisi",
+      "driverId": "drv-1",
+      "vehicleId": "veh-1",
+      "routeId": "rt-1",
+      "status": "arrived",
+      "pickupTime": "07.08 WIB",
+      "arrivalTime": "07.15 WIB",
+      "isDelayed": false,
+      "delayMinutes": 0
+    },
+    {
+      "id": "std-6",
+      "nis": "202409001",
+      "name": "Nabila Azzahra",
+      "class": "IX A",
+      "gender": "P",
+      "parentName": "Ibu Kurniawati",
+      "parentPhone": "0821-4455-6677",
+      "address": "Desa Limbangan RT 04/RW 01, Wanareja",
+      "pickupPoint": "Jembatan Limbangan",
+      "driverId": "drv-2",
+      "vehicleId": "veh-2",
+      "routeId": "rt-2",
+      "status": "boarded",
+      "pickupTime": "06.52 WIB",
+      "isDelayed": false
+    },
+    {
+      "id": "std-7",
+      "nis": "202409015",
+      "name": "Muhammad Ilham",
+      "class": "IX B",
+      "gender": "L",
+      "parentName": "Bpk. Supriyanto",
+      "parentPhone": "0852-3344-5566",
+      "address": "Jl. Raya Cigintung No. 22",
+      "pickupPoint": "Depan SMP PGRI Wanareja lama",
+      "driverId": "drv-2",
+      "vehicleId": "veh-2",
+      "routeId": "rt-2",
+      "status": "boarded",
+      "pickupTime": "06.58 WIB",
+      "isDelayed": false
+    },
+    {
+      "id": "std-8",
+      "nis": "202407050",
+      "name": "Dimas Aditya",
+      "class": "VII C",
+      "gender": "L",
+      "parentName": "Bpk. Rahmat Hidayat",
+      "parentPhone": "0819-2233-4455",
+      "address": "Desa Tambaksari RT 02/RW 05",
+      "pickupPoint": "Pangkalan Ojek Tambaksari",
+      "driverId": "drv-3",
+      "vehicleId": "veh-3",
+      "routeId": "rt-3",
+      "status": "pending",
+      "isDelayed": false
+    }
+  ],
+  "drivers": [
+    {
+      "id": "drv-1",
+      "name": "Budi Santoso",
+      "phone": "0813-2890-4411",
+      "simNumber": "9208-1123-0001",
+      "vehicleId": "veh-1",
+      "vehiclePlate": "B 1234 KZ",
+      "vehicleName": "Angkot 01 (Kuning)",
+      "routeId": "rt-1",
+      "routeName": "Rute Wanareja - Madusari",
+      "status": "active",
+      "rating": 4.9,
+      "avatarUrl": ""
+    },
+    {
+      "id": "drv-2",
+      "name": "Agus Setiawan",
+      "phone": "0852-7890-1122",
+      "simNumber": "9208-1123-0002",
+      "vehicleId": "veh-2",
+      "vehiclePlate": "R 8412 NN",
+      "vehicleName": "Angkot 02 (Kuning)",
+      "routeId": "rt-2",
+      "routeName": "Rute Limbangan - Wanareja",
+      "status": "in_transit",
+      "rating": 4.8,
+      "avatarUrl": ""
+    },
+    {
+      "id": "drv-3",
+      "name": "Supardi Hartono",
+      "phone": "0878-1234-9988",
+      "simNumber": "9208-1123-0003",
+      "vehicleId": "veh-3",
+      "vehiclePlate": "R 8921 YB",
+      "vehicleName": "Angkot 03 (Kuning)",
+      "routeId": "rt-3",
+      "routeName": "Rute Tambaksari - Wanareja",
+      "status": "active",
+      "rating": 4.7,
+      "avatarUrl": ""
+    },
+    {
+      "id": "drv-4",
+      "name": "Wahyu Hidayat",
+      "phone": "0812-4455-6677",
+      "simNumber": "9208-1123-0004",
+      "vehicleId": "veh-4",
+      "vehiclePlate": "R 9102 ZA",
+      "vehicleName": "Angkot 04 (Kuning)",
+      "routeId": "rt-4",
+      "routeName": "Rute Cigintung - Sekolah",
+      "status": "active",
+      "rating": 4.9,
+      "avatarUrl": ""
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "veh-1",
+      "code": "Angkot 01",
+      "name": "Angkot Wanareja 01",
+      "plateNumber": "B 1234 KZ",
+      "capacity": 12,
+      "type": "Suzuki Carry Futura 1.5 (Kuning)",
+      "status": "active",
+      "driverId": "drv-1",
+      "driverName": "Budi Santoso",
+      "lastServiceDate": "2026-10-15"
+    },
+    {
+      "id": "veh-2",
+      "code": "Angkot 02",
+      "name": "Angkot Wanareja 02",
+      "plateNumber": "R 8412 NN",
+      "capacity": 12,
+      "type": "Suzuki Carry Futura 1.5 (Kuning)",
+      "status": "active",
+      "driverId": "drv-2",
+      "driverName": "Agus Setiawan",
+      "lastServiceDate": "2026-10-22"
+    },
+    {
+      "id": "veh-3",
+      "code": "Angkot 03",
+      "name": "Angkot Wanareja 03",
+      "plateNumber": "R 8921 YB",
+      "capacity": 10,
+      "type": "Daihatsu Gran Max (Kuning)",
+      "status": "active",
+      "driverId": "drv-3",
+      "driverName": "Supardi Hartono",
+      "lastServiceDate": "2026-11-01"
+    },
+    {
+      "id": "veh-4",
+      "code": "Angkot 04",
+      "name": "Angkot Wanareja 04",
+      "plateNumber": "R 9102 ZA",
+      "capacity": 12,
+      "type": "Suzuki Carry 1.5 (Kuning)",
+      "status": "active",
+      "driverId": "drv-4",
+      "driverName": "Wahyu Hidayat",
+      "lastServiceDate": "2026-10-30"
+    },
+    {
+      "id": "veh-5",
+      "code": "Angkot 05",
+      "name": "Angkot Wanareja 05 (Cadangan)",
+      "plateNumber": "R 8110 KC",
+      "capacity": 12,
+      "type": "Suzuki Carry (Kuning)",
+      "status": "idle",
+      "lastServiceDate": "2026-09-12"
+    }
+  ],
+  "routes": [
+    {
+      "id": "rt-1",
+      "name": "Rute Wanareja - Madusari",
+      "description": "Melewati Jl. Melati, Desa Adimulya, Dusun Cihaur, Tarisi ke SMP Muhammadiyah 1",
+      "startLocation": "SMP Muhammadiyah 1 Wanareja",
+      "pickupPoints": [
+        "Jl. Melati (Pos Ronda 2)",
+        "Masjid Al-Hidayah Adimulya",
+        "Balai Desa Wanareja",
+        "Gapura Dusun Cihaur",
+        "Pasar Tarisi"
+      ],
+      "destination": "SMP Muhammadiyah 1 Wanareja",
+      "distanceKm": 8.5,
+      "estimatedDurationMinutes": 35,
+      "activeDriversCount": 1,
+      "coordinates": [
+        {
+          "lat": -7.3482,
+          "lng": 108.6835,
+          "label": "SMP Muhammadiyah 1 Wanareja (Sekolah)"
+        },
+        {
+          "lat": -7.351,
+          "lng": 108.68,
+          "label": "Jl. Melati No. 12"
+        },
+        {
+          "lat": -7.356,
+          "lng": 108.675,
+          "label": "Perempatan Masjid Adimulya"
+        },
+        {
+          "lat": -7.362,
+          "lng": 108.671,
+          "label": "Gapura Dusun Cihaur"
+        },
+        {
+          "lat": -7.368,
+          "lng": 108.665,
+          "label": "Pertigaan Pasar Tarisi"
+        }
+      ]
+    },
+    {
+      "id": "rt-2",
+      "name": "Rute Limbangan - Wanareja",
+      "description": "Jalur timur Wanareja melintasi jembatan Limbangan dan Cigintung",
+      "startLocation": "SMP Muhammadiyah 1 Wanareja",
+      "pickupPoints": [
+        "Jembatan Limbangan",
+        "Perum Cigintung Indah",
+        "Depan Kantor Pos Wanareja"
+      ],
+      "destination": "SMP Muhammadiyah 1 Wanareja",
+      "distanceKm": 6.2,
+      "estimatedDurationMinutes": 25,
+      "activeDriversCount": 1,
+      "coordinates": [
+        {
+          "lat": -7.3482,
+          "lng": 108.6835,
+          "label": "SMP Muhammadiyah 1 Wanareja"
+        },
+        {
+          "lat": -7.342,
+          "lng": 108.692,
+          "label": "Jembatan Limbangan"
+        },
+        {
+          "lat": -7.346,
+          "lng": 108.689,
+          "label": "Kantor Pos Wanareja"
+        }
+      ]
+    },
+    {
+      "id": "rt-3",
+      "name": "Rute Tambaksari - Wanareja",
+      "description": "Melayani area perbatasan Tambaksari dan sekitarnya",
+      "startLocation": "SMP Muhammadiyah 1 Wanareja",
+      "pickupPoints": [
+        "Pangkalan Ojek Tambaksari",
+        "Simpang Tiga Madusari"
+      ],
+      "destination": "SMP Muhammadiyah 1 Wanareja",
+      "distanceKm": 9.1,
+      "estimatedDurationMinutes": 40,
+      "activeDriversCount": 1,
+      "coordinates": [
+        {
+          "lat": -7.3482,
+          "lng": 108.6835,
+          "label": "SMP Muhammadiyah 1 Wanareja"
+        },
+        {
+          "lat": -7.335,
+          "lng": 108.67,
+          "label": "Tambaksari Pangkalan"
+        }
+      ]
+    }
+  ],
+  "schedules": [
+    {
+      "id": "sch-1",
+      "type": "morning_pickup",
+      "day": "Senin - Jumat",
+      "timeStart": "06:30",
+      "timeEnd": "07:20",
+      "driverId": "drv-1",
+      "driverName": "Budi Santoso",
+      "vehiclePlate": "B 1234 KZ",
+      "routeName": "Rute Wanareja - Madusari",
+      "studentCount": 5,
+      "status": "in_progress"
+    },
+    {
+      "id": "sch-2",
+      "type": "morning_pickup",
+      "day": "Senin - Jumat",
+      "timeStart": "06:40",
+      "timeEnd": "07:25",
+      "driverId": "drv-2",
+      "driverName": "Agus Setiawan",
+      "vehiclePlate": "R 8412 NN",
+      "routeName": "Rute Limbangan - Wanareja",
+      "studentCount": 4,
+      "status": "in_progress"
+    },
+    {
+      "id": "sch-3",
+      "type": "afternoon_dropoff",
+      "day": "Senin - Kamis",
+      "timeStart": "14:00",
+      "timeEnd": "15:00",
+      "driverId": "drv-1",
+      "driverName": "Budi Santoso",
+      "vehiclePlate": "B 1234 KZ",
+      "routeName": "Rute Wanareja - Madusari",
+      "studentCount": 5,
+      "status": "scheduled"
+    }
+  ],
+  "currentTrip": {
+    "id": "trip-today-01",
+    "date": "2026-11-08",
+    "driverId": "drv-1",
+    "driverName": "Budi Santoso",
+    "vehicleId": "veh-1",
+    "vehiclePlate": "B 1234 KZ",
+    "routeName": "Rute Wanareja",
+    "status": "arrived_school",
+    "departureTime": "06.40 WIB",
+    "atPickupTime": "06.50 WIB",
+    "boardedTime": "07.00 WIB",
+    "arrivalTime": "07.15 WIB",
+    "studentIds": [
+      "std-1",
+      "std-2",
+      "std-3",
+      "std-4",
+      "std-5"
+    ],
+    "currentLocation": {
+      "lat": -7.3482,
+      "lng": 108.6835,
+      "name": "SMP Muhammadiyah 1 Wanareja"
+    }
+  },
+  "tripHistory": [
+    {
+      "id": "th-4",
+      "tripId": "trip-today-01",
+      "date": "2026-11-08",
+      "timeStr": "07.15",
+      "driverName": "Budi Santoso",
+      "vehiclePlate": "B 1234 KZ",
+      "action": "Sampai di Sekolah",
+      "stage": "arrived_school",
+      "location": "SMP Muhammadiyah 1 Wanareja",
+      "notes": "Semua 5 siswa telah tiba di sekolah dengan selamat."
+    },
+    {
+      "id": "th-3",
+      "tripId": "trip-today-01",
+      "date": "2026-11-08",
+      "timeStr": "07.00",
+      "driverName": "Budi Santoso",
+      "vehiclePlate": "B 1234 KZ",
+      "action": "Siswa Sudah Naik",
+      "stage": "students_boarded",
+      "location": "Dusun Cihaur & Tarisi",
+      "notes": "5 siswa telah menaiki kendaraan Angkot 01."
+    },
+    {
+      "id": "th-2",
+      "tripId": "trip-today-01",
+      "date": "2026-11-08",
+      "timeStr": "06.50",
+      "driverName": "Budi Santoso",
+      "vehiclePlate": "B 1234 KZ",
+      "action": "Tiba di Titik Jemput",
+      "stage": "at_pickup",
+      "location": "Jl. Melati & Masjid Adimulya",
+      "notes": "Angkot telah tiba di titik kumpul penjemputan."
+    },
+    {
+      "id": "th-1",
+      "tripId": "trip-today-01",
+      "date": "2026-11-08",
+      "timeStr": "06.40",
+      "driverName": "Budi Santoso",
+      "vehiclePlate": "B 1234 KZ",
+      "action": "Berangkat dari Sekolah",
+      "stage": "departed_school",
+      "location": "SMP Muhammadiyah 1 Wanareja",
+      "notes": "Supir memulai perjalanan penjemputan pagi."
+    }
+  ],
+  "whatsappLogs": [
+    {
+      "id": "wa-4",
+      "timestamp": "2026-11-08T15:12:54.787Z",
+      "timeStr": "07.15",
+      "targetPhone": "0812-3456-7890",
+      "targetName": "Hj. Rohmah / Bpk. Sutrisno",
+      "studentName": "Andi Pratama",
+      "stage": "arrived_school",
+      "message": "SMP Muhammadiyah 1 Wanareja: Ananda Andi Pratama sudah sampai sekolah dengan selamat. 🙏",
+      "status": "simulated"
+    },
+    {
+      "id": "wa-3",
+      "timestamp": "2026-11-08T15:12:54.787Z",
+      "timeStr": "07.00",
+      "targetPhone": "0812-3456-7890",
+      "targetName": "Hj. Rohmah / Bpk. Sutrisno",
+      "studentName": "Andi Pratama",
+      "stage": "students_boarded",
+      "message": "SMP Muhammadiyah 1 Wanareja: Ananda Andi Pratama sudah naik angkot sekolah (B 1234 KZ).",
+      "status": "simulated"
+    },
+    {
+      "id": "wa-2",
+      "timestamp": "2026-11-08T15:12:54.787Z",
+      "timeStr": "06.50",
+      "targetPhone": "0812-3456-7890",
+      "targetName": "Hj. Rohmah / Bpk. Sutrisno",
+      "studentName": "Andi Pratama",
+      "stage": "at_pickup",
+      "message": "SMP Muhammadiyah 1 Wanareja: Ananda sudah sampai di titik penjemputan (Jl. Melati).",
+      "status": "simulated"
+    },
+    {
+      "id": "wa-1",
+      "timestamp": "2026-11-08T15:12:54.787Z",
+      "timeStr": "06.40",
+      "targetPhone": "0812-3456-7890",
+      "targetName": "Hj. Rohmah / Bpk. Sutrisno",
+      "studentName": "Andi Pratama",
+      "stage": "departed_school",
+      "message": "SMP Muhammadiyah 1 Wanareja: Halo Bunda, angkot sekolah sudah berangkat menuju rumah ananda.",
+      "status": "simulated"
+    }
+  ]
+}
